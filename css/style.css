@@ -1,0 +1,64 @@
+body {
+	font-family: 'Arial',YuGothic,'Yu Gothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','メイリオ', Meiryo,'ＭＳ ゴシック',sans-serif;
+}
+
+.article-1 {
+	/* 赤っぽい色　*/
+	background-color: #EA2027;
+}
+
+.wrap-1 {
+	display: flex;
+	height: 768px;
+}
+
+.box-1 {
+	height: 100%;
+	width: 50%;
+}
+
+.box-2 {
+    position: relative;
+	height: 100%;
+	width: 50%;
+	text-align: center;
+}
+
+.image_size_myself {
+	height: 80%;
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+	margin:0 auto;
+}
+
+#message-1 {
+  
+	/*  フォントのサイズ  */
+	font-size: 16px;
+	
+	/*  フォントの色  */
+	color: #FFFFFF;
+	
+	/* 文字間隔の調整の設定 */
+	letter-spacing: 1.5px;
+  
+	/* 行間の設定 */
+	line-height: 1.75;
+
+	/* 要素が横までいっぱいに広がり、縦に並んでいく */
+	display: block;
+
+	/* 小要素を基準にポジションを指定 */
+	position: relative;
+
+	/* 小要素を基準にポジションを指定 */
+    top: 20%;
+    left: 0px;
+    height: 17px;
+    width: 273px;
+    /*text-indent: -9999px;*/
+
+}
