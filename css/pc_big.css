@@ -1,0 +1,105 @@
+body {
+	font-family: 'Arial',YuGothic,'Yu Gothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','メイリオ', Meiryo,'ＭＳ ゴシック',sans-serif;
+}
+
+/* 主にFirst Viewで利用する */
+.article-1 {
+	background-color: #EA2027;
+}
+
+.wrap-1 {
+	display: flex;
+	height: 768px;
+	margin: 0px 10%;
+}
+
+.box-1 {
+	height: 100%;
+	width: 50%;
+}
+
+.box-2 {
+    position: relative;
+	height: 100%;
+	width: 50%;
+}
+
+.image_size_myself {
+	width: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+	margin:0 auto;
+}
+
+.message-1 {
+	font-size: 80px;
+	color: #FFFFFF;
+	position: relative;
+	top: 10%
+}
+
+.message-2 {
+	font-size: 80px;
+	color: #FFFFFF;
+	margin: 0;
+	position: relative;
+	top: 0%
+}
+
+.price-1 {
+	font-size: 200px;
+	color: #FFFFFF;
+}
+
+.annotation-1 {
+	font-size: 15px;
+	color: #FFFFFF;
+}
+
+.myname-1 {
+	font-size: 80px;
+	color: #FFFFFF;
+	text-align: center;
+	/* 文字の上の点々 */
+	-webkit-text-emphasis: filled circle #ffffff;
+	text-emphasis: filled circle #ffffff;
+	/* ポジション */
+	position: relative;
+	top: 10%;
+}
+
+/* 主にNavigation Barで利用する */
+
+ul.navigationUL {
+    width: 100%;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+ 
+li.navigationLI {
+    float: left;
+    width: 20%;
+    list-style-type: none;
+	border: solid #ffffff;
+	border-width:5px 5px 2.5px 2.5px;
+	box-sizing:border-box;
+}
+ 
+a.navigationA {
+    display: block;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #EA2027;
+    color: #fff;
+}
+ 
+a.navigationA:hover {
+	color: #EA2027;
+    background-color: #fff;
+}
+

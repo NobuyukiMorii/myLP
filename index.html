@@ -3,12 +3,16 @@
 <head>
 <!-- ①スタイルシートを読み込む -->
 <meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1" />
-<link rel="stylesheet" media="only screen and (min-width: 911px)" type="text/css" href="css/style.css" />
-<!-- ※デフォルトのスタイル（style.css） -->
-<link rel="stylesheet" media="only screen and (min-width: 321px) and (max-width: 910px)" type="text/css" href="css/tablet.css" />
+<!-- ※大きいパソコンで見る人（pc_big.css） -->
+<link rel="stylesheet" media="only screen and (min-width: 1850px)" type="text/css" href="css/pc_big.css" />
+<!-- ※中程度のパソコンで見る人（pc_middle.css） -->
+<link rel="stylesheet" media="only screen and (min-width: 1300px) and (max-width: 1849px)" type="text/css" href="css/pc_middle.css" />
+<!-- ※小さいパソコンで見る人（pc_small.css） -->
+<link rel="stylesheet" media="only screen and (min-width: 911px) and (max-width: 1199px)" type="text/css" href="css/pc_small.css" />
 <!-- ※タブレット用のスタイル（tablet.css） -->
-<link rel="stylesheet" media="only screen and (min-width: 0px) and (max-width: 320px)" type="text/css" href="css/smart.css" />
+<link rel="stylesheet" media="only screen and (min-width: 321px) and (max-width: 910px)" type="text/css" href="css/tablet.css" />
 <!-- ※スマートフォン用のスタイル（smart.css） -->
+<link rel="stylesheet" media="only screen and (min-width: 0px) and (max-width: 320px)" type="text/css" href="css/smart.css" />
 
 <!-- ①基本的metaタグ -->
 <meta charset="utf-8">
@@ -38,12 +42,28 @@
 
 		<div class="box-1">
 	  	
-			<p id="message-1">最低賃金で働く31歳</p>
+			<p class="message-1">
+				最低賃金
+				<br>
+				激安フリーランサー
+			</p>
+
+			<p class="message-2">
+				時給&nbsp;<span class="price-1">¥985</span>
+			</p>
+
+			<p class="annotation-1">
+				※&nbsp;時給額¥985は2019年1月21日時点での東京都の最低賃金です。
+			</p>
 
 		</div>
 
 		<div class="box-2">
-	  	
+
+			<p class="myname-1">
+				もりいのぶゆき
+			</p>
+
 			<img border="0" src="image/photo_myself_1.png" class="image_size_myself" alt="イラスト1">
 
 		</div>
@@ -51,6 +71,16 @@
 	</div>
 
 </article>
+
+<ul class="navigationUL">
+    <li class="navigationLI"><a class="navigationA" href="#">nav01</a></li>
+    <li class="navigationLI"><a class="navigationA" href="#">nav02</a></li>
+    <li class="navigationLI"><a class="navigationA" href="#">nav03</a></li>
+    <li class="navigationLI"><a class="navigationA" href="#">nav04</a></li>
+    <li class="navigationLI"><a class="navigationA" href="#">nav05</a></li>
+</ul>
+
+
 
 
 </body>
