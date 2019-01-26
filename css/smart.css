@@ -1,0 +1,416 @@
+body {
+	font-family: 'Arial',YuGothic,'Yu Gothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','メイリオ', Meiryo,'ＭＳ ゴシック',sans-serif;
+	margin: 0px;
+}
+
+/* 主にFirst Viewで利用する */
+.article-1 {
+	background-color: #EA2027;
+	padding-top: 10%;
+}
+
+.wrap-1 {
+	display: flex;
+	height: 170px;
+	margin: 0px 10% 0px;
+}
+
+.box-1-1 {
+	height: 100%;
+	width: 50%;
+}
+
+.box-1-2 {
+    position: relative;
+	height: 100%;
+	width: 50%;
+}
+
+.image_size_myself {
+	height: 120px;
+	/* 画像を中央下寄せ */
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+
+}
+
+.shareButton {
+	display: none;
+}
+
+.shareButton-2 {
+
+}
+
+.message-1-1 {
+	font-size: 18px;
+	color: #FFFFFF;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.message-1-2 {
+	font-size: 18px;
+	color: #FFFFFF;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.price-1 {
+	font-size: 30px;
+	color: #FFFFFF;
+}
+
+.annotation-1 {
+	font-size: 5px;
+	color: #FFFFFF;
+}
+
+.myname-1 {
+	font-size: 18px;
+	color: #FFFFFF;
+	text-align: center;
+	/* 文字の上の点々 */
+	-webkit-text-emphasis: filled circle #ffffff;
+	text-emphasis: filled circle #ffffff;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+/* 主にNavigation Barで利用する */
+
+ul.navigationUL {
+	display:none;
+}
+ 
+li.navigationLI {
+
+}
+ 
+a.navigationA {
+
+}
+ 
+a.navigationA:hover {
+
+}
+
+/* 主に「転落の理由」で利用する */
+#article-2 {
+	border: solid #EA2027;
+	border-width:0px 0px 5px 0px;
+}
+
+.wrap-2 {
+	display: table;
+	width: 100%;
+	height: 520px;
+}
+
+.message-2 {
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 10px;
+	color: #636e72;
+    width:50%;
+    text-align:left;
+    margin: 1% auto;
+    padding: 0% 10%;
+	line-height: 20px;
+}
+
+/* 主に「圧倒的低価格」で利用する */
+#article-3 {
+	border: solid #EA2027;
+	border-width:0px 0px 5px 0px;
+}
+
+.wrap-3 {
+	display: block;
+	margin: 0px 0%;
+	padding-top: 15px;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 15px;
+}
+
+.box-3-1 {
+	width: 100%;
+}
+
+.box-3-2 {
+	width: 100%;
+	padding: 10px 0px;
+}
+
+.message-3-1 {
+	font-size: 18px;
+	color: #EA2027;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.message-3-2 {
+	font-size: 5px;
+	color: #636e72;
+	line-height: 20px
+}
+
+.LowPriceImage {
+	width: 100%;
+}
+
+/* 主に「Q and A」で利用する */
+#article-4 {
+	border: solid #EA2027;
+	border-width:0px 0px 5px 0px;
+}
+
+.wrap-4 {
+	display: block;
+	margin: 0px 0%;
+	padding-top: 15px;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 15px;
+
+}
+
+.chapter-title-4 {
+	font-size: 18px;
+	color: #EA2027;
+    width:100%;
+    text-align:center;  
+    margin: 5px auto 10px;
+}
+
+.question-4 {
+	font-size: 8px;
+	background: #EA2027;
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	padding: 0% 3%;
+	border-radius: 10px;
+}
+
+.answer-4 {
+	font-size: 8px;
+	color: #636e72;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/* 主に「スキルセット」で利用する */
+#article-5 {
+	border: solid #EA2027;
+	border-width:0px 0px 5px 0px;
+}
+
+.chapter-title-5 {
+	font-size: 18px;
+	color: #EA2027;
+    width:100%;
+    text-align:center;  
+    margin: 15px 0px 0px;
+}
+
+.chapter-title-description-5 {
+	font-size: 10px;
+	color: #636e72;
+	margin-left: 10%;
+}
+
+.wrap-5 {
+	display: block;
+	margin: 0px 0%;
+	padding-top: 5px;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 15px;
+}
+
+.box-5-1 {
+	width: 100%;
+	border: solid #EA2027;
+	border-width:5px 5px 5px 5px;
+	margin-bottom:15px;
+}
+
+.box-5-2 {
+	width: 100%;
+	border: solid #EA2027;
+	border-width:5px 5px 5px 5px;
+	margin-bottom:15px;
+}
+
+.box-5-3 {
+	width: 100%;
+	border: solid #EA2027;
+	border-width:5px 5px 5px 5px;
+	margin-bottom:15px;
+}
+
+.box-5-4 {
+	width: 100%;
+	border: solid #EA2027;
+	border-width:5px 5px 5px 5px;
+	margin-bottom:15px;
+}
+
+.skill-title-5 {
+	background: #EA2027;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	margin: 0px;
+	font-size: 11px;
+}
+
+.skill-label {
+	border: solid #EA2027;
+	border-width:5px 5px 5px 5px;
+	color: #EA2027;
+	padding: 10px;
+	text-align: center;
+	margin: 10px 5px;
+	font-size: 10px;
+}
+
+/* 主に「経歴」で利用する */
+#article-6 {
+	border: solid #EA2027;
+	border-width:0px 0px 0px 0px;
+}
+
+.wrap-6 {
+	display: block;
+	margin: 0px 0%;
+	padding-top: 5px;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 30px;
+}
+
+.chapter-title-6 {
+	font-size: 18px;
+	color: #EA2027;
+    width:100%;
+    text-align:center;  
+    margin: 3% auto 0%;
+}
+
+.HistoryLineImage {
+	display:none;
+}
+
+.message-career-6 {
+	font-size: 10px;
+	color: #636e72;
+    text-align:left;  
+    margin: 0px auto;
+    background: #fff;
+    padding: 3%;
+}
+
+.label-career-6 {
+	display:none;
+}
+
+/* 主に「経歴」で利用する */
+#article-7 {
+	border: solid #EA2027;
+	border-width:0px 0px 0px 0px;
+}
+
+.wrap-7 {
+	display: block;
+	background: #EA2027;
+	margin: 0px 0%;
+	padding: 5% 10% 10%;
+}
+
+.chapter-title-7 {
+	font-size: 18px;
+	color: #fff;
+    width:100%;
+    text-align:center;  
+    margin: 0% auto 0%;
+}
+
+.chapter-title-description-7 {
+	font-size: 10px;
+	color: #fff;
+	margin: 0px;
+    text-align:left;  
+    margin: 2% auto 7%;
+}
+
+
+label {
+	margin-bottom: 1%;
+	color: #fff;
+	font-size:11pt;
+}
+
+label, input[type="text"], input[type="email"], textarea {
+	display: block;
+	width: 100%;
+}
+
+input[type="text"], input[type="email"] {
+	height: 20px;
+	margin-bottom: 5%;
+	font-size:11pt;
+	color: #636e72;
+	/*角丸を作る*/
+	border:none;
+	border-radius:5px;
+	box-shadow: none;
+}
+
+/*　フォーカスしてもフォームの周りの色が変わらないようにする。　*/
+input[type="text"]:focus, input[type="email"]:focus {
+	outline: none;
+}
+
+textarea {
+	height: 100px;
+	margin-bottom: 5%;
+	font-size:11pt;
+	color: #636e72;
+	/*角丸を作る*/
+	border:none;
+	border-radius:5px;
+	box-shadow: none;
+
+}
+
+textarea:focus {
+	outline: none;
+}
+
+button[type="button"] {
+	background-color: #fff;
+	border-style: none;
+	border-radius:5px;
+	font-size:11pt;
+	color: #EA2027;
+	height: 30px;
+	width: 100%;
+}
+
+button[type="button"]:hover {
+	background-color: #f8d548;
+}
+
+#thxMessage {
+	display:block;
+	color: #fff;
+	font-size: 13px;
+	text-align: left;
+	margin-top: 20px;
+}

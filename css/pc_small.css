@@ -1,0 +1,438 @@
+body {
+	font-family: 'Arial',YuGothic,'Yu Gothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','メイリオ', Meiryo,'ＭＳ ゴシック',sans-serif;
+	margin: 0px;
+}
+
+/* 主にFirst Viewで利用する */
+.article-1 {
+	background-color: #EA2027;
+}
+
+.wrap-1 {
+	display: flex;
+	height: 400px;
+	margin: 0px 10%;
+	padding-top: 5%;
+	padding-right: 5%; 
+	padding-left: 5%;
+}
+
+.box-1-1 {
+	height: 100%;
+	width: 50%;
+}
+
+.box-1-2 {
+    position: relative;
+	height: 100%;
+	width: 50%;
+}
+
+.image_size_myself {
+	height: 300px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+	margin:0 auto;
+}
+
+.shareButton {
+	margin-top: 15%;
+}
+
+.shareButton-2 {
+	display: none;
+}
+
+.message-1-1 {
+	font-size: 45px;
+	color: #FFFFFF;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.message-1-2 {
+	font-size: 45px;
+	color: #FFFFFF;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.price-1 {
+	font-size: 80px;
+	color: #FFFFFF;
+}
+
+.annotation-1 {
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+.myname-1 {
+	font-size: 45px;
+	color: #FFFFFF;
+	text-align: center;
+	/* 文字の上の点々 */
+	-webkit-text-emphasis: filled circle #ffffff;
+	text-emphasis: filled circle #ffffff;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+/* 主にNavigation Barで利用する */
+
+ul.navigationUL {
+    width: 100%;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+ 
+li.navigationLI {
+    float: left;
+    width: 16.6666666667%;
+    list-style-type: none;
+	border: solid #ffffff;
+	border-width:5px 5px 2.5px 2.5px;
+	box-sizing:border-box;
+}
+ 
+a.navigationA {
+    display: block;
+    padding: 20px 0;
+    text-align: center;
+    text-decoration: none;
+    background-color: #EA2027;
+    color: #fff;
+    font-size: 15px;
+}
+ 
+a.navigationA:hover {
+	color: #EA2027;
+    background-color: #fff;
+}
+
+/* 主に「転落の理由」で利用する */
+#article-2 {
+	border: solid #EA2027;
+	border-width:0px 0px 5px 0px;
+    padding: 5% 20%;
+}
+
+.wrap-2 {
+	display: table;
+	width: 100%;
+}
+
+.message-2 {
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 15px;
+	color: #636e72;
+    width:50%;
+    text-align:left;
+    margin: 5% auto;
+	line-height: 40px;
+}
+
+/* 主に「圧倒的低価格」で利用する */
+#article-3 {
+	border: solid #EA2027;
+	border-width:0px 0px 5px 0px;
+	padding: 3% 10% 3%;
+}
+
+.wrap-3 {
+	display: flex;
+	padding: 0% 0%;
+}
+
+.box-3-1 {
+	width: 50%;
+}
+
+.box-3-2 {
+	width: 50%;
+	position: relative;
+}
+
+.message-3-1 {
+	font-size: 30px;
+	color: #EA2027;
+	margin: 0px;
+}
+
+.message-3-2 {
+	font-size: 15px;
+	color: #636e72;
+	line-height: 35px;
+}
+
+.LowPriceImage {
+	height: 400px;
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto;
+}
+
+/* 主に「Q and A」で利用する */
+#article-4 {
+	border: solid #EA2027;
+	border-width:0px 0px 5px 0px;
+	padding: 3% 10%;
+}
+
+.wrap-4 {
+	display: block;
+	margin: 0px 0%;
+}
+
+.chapter-title-4 {
+	font-size: 30px;
+	color: #EA2027;
+	height: 75px;
+    width:100%;
+    text-align:center;  
+    margin: 1% auto 3%;
+}
+
+.question-4 {
+	font-size: 15px;
+	background: #EA2027;
+	height: 80px;
+	line-height: 80px;
+	color: #fff;
+	padding: 0% 3%;
+	border-radius: 10px;
+	margin: 0px;
+}
+
+.answer-4 {
+	font-size: 15px;
+	color: #636e72;
+	margin: 1% 0% 3% 0%;
+	line-height: 35px;
+}
+
+/* 主に「スキルセット」で利用する */
+#article-5 {
+	border: solid #EA2027;
+	border-width:0px 0px 5px 0px;
+	padding-top: 3%;
+	padding-right: 10%;
+	padding-left: 10%;
+	padding-bottom: 3%;
+}
+
+.wrap-5 {
+	display: flex;
+}
+
+.chapter-title-5 {
+	font-size: 30px;
+	color: #EA2027;
+    width:100%;
+    text-align:center;
+    margin: 0px;
+}
+
+.chapter-title-description-5 {
+	font-size: 15px;
+	color: #636e72;
+	margin: 0px;
+    text-align:center;  
+    margin: 0 auto 3%;
+}
+
+.box-5-1 {
+	height: 90%;
+	width: 24%;
+	border: solid #EA2027;
+	border-width:0px 5px 5px 5px;
+	margin-right: 1%;
+}
+
+.box-5-2 {
+	height: 90%;
+	width: 24%;
+	border: solid #EA2027;
+	border-width:0px 5px 5px 5px;
+	margin-right: 1%;
+	margin-left: 1%;
+}
+
+.box-5-3 {
+	height: 90%;
+	width: 24%;
+	border: solid #EA2027;
+	border-width:0px 5px 5px 5px;
+	margin-right: 1%;
+	margin-left: 1%;
+}
+
+.box-5-4 {
+	height: 90%;
+	width: 24%;
+	border: solid #EA2027;
+	border-width:0px 5px 5px 5px;
+	margin-left: 1%;
+}
+
+.skill-title-5 {
+	background: #EA2027;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	margin: 0px;
+}
+
+.skill-label {
+	border: solid #EA2027;
+	border-width:5px 5px 5px 5px;
+	color: #EA2027;
+	padding: 10px;
+	text-align: center;
+	margin: 10px 5px;
+}
+
+/* 主に「経歴」で利用する */
+#article-6 {
+	border: solid #EA2027;
+	border-width:0px 0px 0px 0px;
+}
+
+.wrap-6 {
+	display: block;
+	text-align: center;
+	padding-top:3%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom:3%;
+}
+
+.chapter-title-6 {
+	font-size: 30px;
+	color: #EA2027;
+    width:100%; 
+    margin: 0 auto 0%;
+}
+
+.HistoryLineImage {
+	width: 100%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.message-career-6 {
+	font-size: 15px;
+	color: #636e72;
+    text-align:left;  
+    margin: 0px auto;
+    background: #f1f5f9;
+    padding: 3%;
+}
+
+.label-career-6 {
+	font-size: 25px;
+	color: #636e72;
+	font-weight: bold;
+}
+
+/* 主に「経歴」で利用する */
+#article-7 {
+	border: solid #EA2027;
+	border-width:0px 0px 0px 0px;
+}
+
+.wrap-7 {
+	display: block;
+	background: #EA2027;
+	margin: 0px 0%;
+	padding: 4% 10%;
+}
+
+.chapter-title-7 {
+	font-size: 30px;
+	color: #fff;
+	height: 75px;
+    width:100%;
+    text-align:center;  
+    margin: 0% auto 0%;
+}
+
+.chapter-title-description-7 {
+	font-size: 18px;
+	color: #fff;
+	margin: 0px;
+    text-align:left;  
+    margin: 2% auto 7%;
+}
+
+label {
+	margin-bottom: 1%;
+	color: #fff;
+	font-size:16pt;
+}
+
+label, input[type="text"], input[type="email"], textarea {
+	display: block;
+	width: 100%;
+}
+
+input[type="text"], input[type="email"] {
+	height: 30px;
+	margin-bottom: 5%;
+	font-size:16pt;
+	color: #636e72;
+	/*角丸を作る*/
+	border:none;
+	border-radius:10px;
+	box-shadow: none;
+	padding: 2px 8px;
+}
+
+/*　フォーカスしてもフォームの周りの色が変わらないようにする。　*/
+input[type="text"]:focus, input[type="email"]:focus {
+	outline: none;
+}
+
+textarea {
+	height: 300px;
+	margin-bottom: 5%;
+	font-size:16pt;
+	color: #636e72;
+	/*角丸を作る*/
+	border:none;
+	border-radius:10px;
+	box-shadow: none;
+	padding: 2px 8px;
+}
+
+textarea:focus {
+	outline: none;
+}
+
+button[type="button"] {
+	background-color: #fff;
+	border-style: none;
+	border-radius:10px;
+	font-size:16pt;
+	color: #EA2027;
+	height: 50px;
+	width: 20%;
+}
+
+button[type="button"]:hover {
+	background-color: #f8d548;
+}
+
+#thxMessage {
+	display:block;
+	color: #fff;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 50%;
+}
