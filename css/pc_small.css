@@ -227,8 +227,12 @@ a.navigationA:hover {
 	padding-bottom: 3%;
 }
 
-.wrap-5 {
+.wrap-for-pctab-5 {
 	display: flex;
+}
+
+.wrap-for-smart-phone-5 {
+	display: none;
 }
 
 .chapter-title-5 {
@@ -248,7 +252,6 @@ a.navigationA:hover {
 }
 
 .box-5-1 {
-	height: 90%;
 	width: 24%;
 	border: solid #EA2027;
 	border-width:0px 5px 5px 5px;
@@ -256,7 +259,6 @@ a.navigationA:hover {
 }
 
 .box-5-2 {
-	height: 90%;
 	width: 24%;
 	border: solid #EA2027;
 	border-width:0px 5px 5px 5px;
@@ -265,7 +267,6 @@ a.navigationA:hover {
 }
 
 .box-5-3 {
-	height: 90%;
 	width: 24%;
 	border: solid #EA2027;
 	border-width:0px 5px 5px 5px;
@@ -274,7 +275,6 @@ a.navigationA:hover {
 }
 
 .box-5-4 {
-	height: 90%;
 	width: 24%;
 	border: solid #EA2027;
 	border-width:0px 5px 5px 5px;

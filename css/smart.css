@@ -17,13 +17,13 @@ body {
 
 .box-1-1 {
 	height: 100%;
-	width: 50%;
+	width: 60%;
 }
 
 .box-1-2 {
     position: relative;
 	height: 100%;
-	width: 50%;
+	width: 40%;
 }
 
 .image_size_myself {
@@ -46,14 +46,14 @@ body {
 }
 
 .message-1-1 {
-	font-size: 18px;
+	font-size: 25px;
 	color: #FFFFFF;
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
 
 .message-1-2 {
-	font-size: 18px;
+	font-size: 25px;
 	color: #FFFFFF;
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -65,12 +65,12 @@ body {
 }
 
 .annotation-1 {
-	font-size: 5px;
+	font-size: 7px;
 	color: #FFFFFF;
 }
 
 .myname-1 {
-	font-size: 18px;
+	font-size: 25px;
 	color: #FFFFFF;
 	text-align: center;
 	/* 文字の上の点々 */
@@ -107,18 +107,16 @@ a.navigationA:hover {
 .wrap-2 {
 	display: table;
 	width: 100%;
-	height: 520px;
 }
 
 .message-2 {
 	display: table-cell;
 	vertical-align: middle;
-	font-size: 10px;
+	font-size: 11px;
 	color: #636e72;
-    width:50%;
+    padding: 5% 5%;
     text-align:left;
-    margin: 1% auto;
-    padding: 0% 10%;
+    margin: 0px;
 	line-height: 20px;
 }
 
@@ -131,10 +129,10 @@ a.navigationA:hover {
 .wrap-3 {
 	display: block;
 	margin: 0px 0%;
-	padding-top: 15px;
-	padding-left: 10%;
-	padding-right: 10%;
-	padding-bottom: 15px;
+	padding-top: 10px;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 10px;
 }
 
 .box-3-1 {
@@ -147,14 +145,14 @@ a.navigationA:hover {
 }
 
 .message-3-1 {
-	font-size: 18px;
+	font-size: 22px;
 	color: #EA2027;
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
 
 .message-3-2 {
-	font-size: 5px;
+	font-size: 11px;
 	color: #636e72;
 	line-height: 20px
 }
@@ -172,102 +170,111 @@ a.navigationA:hover {
 .wrap-4 {
 	display: block;
 	margin: 0px 0%;
-	padding-top: 15px;
-	padding-left: 10%;
-	padding-right: 10%;
-	padding-bottom: 15px;
+	padding-top: 10px;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 10px;
 
 }
 
 .chapter-title-4 {
-	font-size: 18px;
+	font-size: 22px;
 	color: #EA2027;
     width:100%;
     text-align:center;  
-    margin: 5px auto 10px;
 }
 
 .question-4 {
-	font-size: 8px;
+	font-size: 11px;
 	background: #EA2027;
 	height: 40px;
 	line-height: 40px;
 	color: #fff;
 	padding: 0% 3%;
 	border-radius: 10px;
+	margin: 0px;
 }
 
 .answer-4 {
-	font-size: 8px;
+	font-size: 11px;
 	color: #636e72;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: 5px;
 }
 
 /* 主に「スキルセット」で利用する */
 #article-5 {
 	border: solid #EA2027;
 	border-width:0px 0px 5px 0px;
+	padding-top: 3%;
+	padding-right: 3%;
+	padding-left: 3%;
+	padding-bottom: 3%;
+}
+
+.wrap-for-pctab-5 {
+	display: none;
+}
+
+.wrap-for-smart-phone-5 {
+	display: flex;
+	margin-bottom: 10px;
 }
 
 .chapter-title-5 {
-	font-size: 18px;
+	font-size: 22px;
 	color: #EA2027;
     width:100%;
-    text-align:center;  
-    margin: 15px 0px 0px;
+    text-align:center;
+    margin: 0px;
 }
 
 .chapter-title-description-5 {
-	font-size: 10px;
+	font-size: 11px;
 	color: #636e72;
-	margin-left: 10%;
-}
-
-.wrap-5 {
-	display: block;
-	margin: 0px 0%;
-	padding-top: 5px;
-	padding-left: 10%;
-	padding-right: 10%;
-	padding-bottom: 15px;
+	margin: 0px;
+    text-align:left;  
+    margin: 0px auto 3%;
 }
 
 .box-5-1 {
-	width: 100%;
+	width: 48%;
 	border: solid #EA2027;
 	border-width:5px 5px 5px 5px;
-	margin-bottom:15px;
+	margin-right: 1%;
+	margin-left: 1%;
 }
 
 .box-5-2 {
-	width: 100%;
+	width: 48%;
 	border: solid #EA2027;
 	border-width:5px 5px 5px 5px;
-	margin-bottom:15px;
+	margin-right: 1%;
+	margin-left: 1%;
 }
 
 .box-5-3 {
-	width: 100%;
+	width: 48%;
 	border: solid #EA2027;
 	border-width:5px 5px 5px 5px;
-	margin-bottom:15px;
+	margin-right: 1%;
+	margin-left: 1%;
 }
 
 .box-5-4 {
-	width: 100%;
+	width: 48%;
 	border: solid #EA2027;
 	border-width:5px 5px 5px 5px;
-	margin-bottom:15px;
+	margin-right: 1%;
+	margin-left: 1%;
 }
 
 .skill-title-5 {
 	background: #EA2027;
 	color: #fff;
-	padding: 10px;
+	padding: 5px;
 	text-align: center;
 	margin: 0px;
-	font-size: 11px;
+	font-size: 13px;
 }
 
 .skill-label {
@@ -277,7 +284,7 @@ a.navigationA:hover {
 	padding: 10px;
 	text-align: center;
 	margin: 10px 5px;
-	font-size: 10px;
+	font-size: 11px;
 }
 
 /* 主に「経歴」で利用する */
@@ -288,19 +295,18 @@ a.navigationA:hover {
 
 .wrap-6 {
 	display: block;
-	margin: 0px 0%;
-	padding-top: 5px;
-	padding-left: 10%;
-	padding-right: 10%;
-	padding-bottom: 30px;
+	padding-top: 3%;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-bottom: 10%;
 }
 
 .chapter-title-6 {
-	font-size: 18px;
+	font-size: 22px;
 	color: #EA2027;
     width:100%;
     text-align:center;  
-    margin: 3% auto 0%;
+    margin: 0% auto 0%;
 }
 
 .HistoryLineImage {
@@ -308,12 +314,11 @@ a.navigationA:hover {
 }
 
 .message-career-6 {
-	font-size: 10px;
+	font-size: 11px;
 	color: #636e72;
     text-align:left;  
     margin: 0px auto;
     background: #fff;
-    padding: 3%;
 }
 
 .label-career-6 {
@@ -330,11 +335,11 @@ a.navigationA:hover {
 	display: block;
 	background: #EA2027;
 	margin: 0px 0%;
-	padding: 5% 10% 10%;
+	padding: 5% 3%;
 }
 
 .chapter-title-7 {
-	font-size: 18px;
+	font-size: 22px;
 	color: #fff;
     width:100%;
     text-align:center;  
@@ -342,7 +347,7 @@ a.navigationA:hover {
 }
 
 .chapter-title-description-7 {
-	font-size: 10px;
+	font-size: 11px;
 	color: #fff;
 	margin: 0px;
     text-align:left;  
@@ -362,7 +367,7 @@ label, input[type="text"], input[type="email"], textarea {
 }
 
 input[type="text"], input[type="email"] {
-	height: 20px;
+	height: 30px;
 	margin-bottom: 5%;
 	font-size:11pt;
 	color: #636e72;
@@ -399,7 +404,7 @@ button[type="button"] {
 	border-radius:5px;
 	font-size:11pt;
 	color: #EA2027;
-	height: 30px;
+	height: 50px;
 	width: 100%;
 }
 
