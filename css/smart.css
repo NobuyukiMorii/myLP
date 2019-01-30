@@ -30,7 +30,7 @@ body {
 	height: 120px;
 	/* 画像を中央下寄せ */
     position:absolute;
-    left:0;
+    left:15%;
     right:0;
     bottom:0;
     margin:auto;
