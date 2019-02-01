@@ -1,21 +1,25 @@
 function sendGform(){
 
 	var flg	= true;
-	var alertInputBgColor = '#f8d548';
+	var InputBgColorError = '#f8d548';
+	var InputBgColorOK = '#fff';
 	var valueEmail = "";
 	var checkEmail = true;
 
 	// お名前チェック
 	if (document.getElementById('name').value == "" || document.getElementById('name').value == null)  {
 		flg = false;
-		document.getElementById('name').style.backgroundColor = alertInputBgColor;
+		document.getElementById('name').style.backgroundColor = InputBgColorError;
 		document.getElementById("AlertName").innerText = "※入力して下さい";
+	} else {
+		document.getElementById('name').style.backgroundColor = InputBgColorOK;
+		document.getElementById("AlertName").innerText = "";	
 	}
 
 	// メールチェック
 	if (document.getElementById('email').value == "" || document.getElementById('email').value == null)  {
 		flg = false;
-		document.getElementById('email').style.backgroundColor = alertInputBgColor;
+		document.getElementById('email').style.backgroundColor = InputBgColorError;
 		document.getElementById("AlertEmail").innerText = "※入力して下さい";
 	} else {
 		// メールアドレスの形式をチェック
@@ -23,16 +27,22 @@ function sendGform(){
 		checkEmail = chkRegEmail(valueEmail);
 		if ( checkEmail == false ){
 			flg = false;
-			document.getElementById('email').style.backgroundColor = alertInputBgColor;
+			document.getElementById('email').style.backgroundColor = InputBgColorError;
 			document.getElementById("AlertEmail").innerText = "※メールアドレスを正しく入力して下さい";
+		} else {
+			document.getElementById('email').style.backgroundColor = InputBgColorOK;
+			document.getElementById("AlertEmail").innerText = "";
 		}
 	}
 
 	// メッセージチェック
 	if (document.getElementById('message').value == "" || document.getElementById('message').value == null)  {
 		flg = false;
-		document.getElementById('message').style.backgroundColor = alertInputBgColor;
+		document.getElementById('message').style.backgroundColor = InputBgColorError;
 		document.getElementById("AlertMessage").innerText = "※入力して下さい";
+	} else {
+		document.getElementById('message').style.backgroundColor = InputBgColorOK;
+		document.getElementById("AlertMessage").innerText = "";	
 	}
 
 	// どれかが失敗した時の処理
