@@ -369,7 +369,7 @@ label, input[type="text"], input[type="email"], textarea {
 input[type="text"], input[type="email"] {
 	height: 30px;
 	margin-bottom: 5%;
-	font-size:11pt;
+	font-size:8pt;
 	color: #636e72;
 	/*角丸を作る*/
 	border:none;
@@ -385,7 +385,7 @@ input[type="text"]:focus, input[type="email"]:focus {
 textarea {
 	height: 100px;
 	margin-bottom: 5%;
-	font-size:11pt;
+	font-size:8pt;
 	color: #636e72;
 	/*角丸を作る*/
 	border:none;
